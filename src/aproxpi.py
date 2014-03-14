@@ -8,7 +8,7 @@ def aprox(n):
   if(n!=0):
     suma=0.0 
     for i in range(1,n+1):
-      xi = ((i - 0.5)/float(n))
+      xi = ((i - 0.5)/float(n)) #funciones para hallar pi los float delante son para que lo que se sigue sera un float
       f_xi = 4/(1+xi**2)
       suma = suma + f_xi
       a = float(i-1)/n
