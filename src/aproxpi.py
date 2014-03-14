@@ -5,7 +5,7 @@ import sys
               #Declaración de la función
 decimalespi = "3.1415926535897931159979634685441852" 
 def aprox(n):
-  if(n!=0):
+  if(n>0):
     suma=0.0 
     for i in range(1,n+1):
       xi = ((i - 0.5)/float(n)) #funciones para hallar pi los float delante son para que lo que se sigue sera un float
@@ -27,6 +27,6 @@ for j in range(1,m+1):
 print lista   
    
     
-    
+
 
   
